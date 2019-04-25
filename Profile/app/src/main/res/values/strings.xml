@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="my_data">My data</string>
+    <string name="my_history">My history</string>
+    <string name="warren">Warren</string>
+    <string name="haynes">Haynes</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address">Address</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="locate_me">Locate me</string>
+    <string name="phone">Phone</string>
+</resources>

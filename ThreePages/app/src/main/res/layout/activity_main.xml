@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/PageHeaderStyle"
+            android:layout_marginTop="100dp"
+            android:text="@string/login" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/personIconImageView"
+                style="@style/AuthIconStyle"
+                android:contentDescription="@string/username"
+                android:src="@drawable/ic_person_black_24dp" />
+
+            <EditText
+                android:id="@+id/loginUsernameEditText"
+                style="@style/AuthEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_alignBaseline="@+id/personIconImageView"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="-273dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/personIconImageView"
+                android:layout_toRightOf="@id/loginUsernameEditText"
+                android:hint="@string/username"
+                android:inputType="text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/passwordIconImageView"
+                style="@style/AuthIconStyle"
+                android:contentDescription="@string/password"
+                android:src="@drawable/ic_lock_black_24dp" />
+
+            <EditText
+                android:id="@+id/loginPasswordEditText"
+                style="@style/AuthEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/passwordIconImageView"
+                android:layout_toRightOf="@id/passwordIconImageView"
+                android:hint="@string/password"
+                android:layout_alignBaseline="@+id/passwordIconImageView"
+                android:inputType="textPassword" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/loginButton"
+            style="@style/AuthButtonStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/redirectToRegisterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/register_account_here" />
+
+    </LinearLayout>
+</ScrollView>

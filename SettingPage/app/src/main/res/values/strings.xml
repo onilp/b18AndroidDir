@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="account">ACCOUNT</string>
+    <string name="this_image_is_just_a_sample">This image is just a sample.</string>
+    <string name="private_account">Private Account</string>
+    <string name="push_notifications">PUSH NOTIFICATIONS</string>
+    <string name="new_deals">New Deals</string>
+    <string name="facebook_friend_joins">Facebook friend joins</string>
+    <string name="friend_likes_my_activity">Friend likes my activity</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="get_help">GET HELP</string>
+</resources>

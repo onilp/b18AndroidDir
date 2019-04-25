@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RegisterPage</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="by_clicking_register_you_agree_to_our_user_agreement_and_policy">By clicking Register, you agree to our User Agreement and Policy.</string>
+    <string name="have_account_sign_in_here">Have account? Sign in here</string>
+    <string name="an_image">An image</string>
+    <string name="text_view_1">Text view 1</string>
+    <string name="text_view_2">Text view 2 2 2 2</string>
+    <string name="text_view_3">Text view 3</string>
+    <string name="text_view_4">Text view 4</string>
+    <string name="text_view_5">Text view 5</string>
+    <string name="text_view_6">Text view 6</string>
+    <string name="w1500_dp">w1500 dp</string>
+    <string name="shield">Shield</string>
+    <string name="sw200_dp">sw200 dp</string>
+    <string name="h1400_dp">h1400 dp</string>
+    <string name="w1400dp">w1400dp</string>
+    <string name="landscape">LandScape</string>
+    <string name="sw600dp">sw600dp</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="frag_1">Frag 1</string>
+    <string name="frag_2">Frag 2</string>
+    <string name="username">Username</string>
+    <string name="submit">Submit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

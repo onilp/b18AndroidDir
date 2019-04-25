@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="app_2">App 2</string>
+    <string name="this_is_app_1">This is app 1!</string>
+</resources>

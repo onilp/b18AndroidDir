@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daftar Halaman</string>
+    <string name="register">Daftar</string>
+    <string name="email">E-mel</string>
+    <string name="password">Kata Laluan</string>
+    <string name="first_name">Nama</string>
+    <string name="last_name">Nama Keluarga</string>
+    <string name="by_clicking_register_you_agree_to_our_user_agreement_and_policy">Clik daftar maksud anda bersetuju dengan penguna perjanjian dan policy.</string>
+    <string name="have_account_sign_in_here">Ada account? Log masuk</string>
+    <string name="sw200_dp">sw200 dp</string>
+    <string name="an_image">An image</string>
+    <string name="text_view_1">Text view 1</string>
+    <string name="text_view_2">Text view 2 2 2 2</string>
+    <string name="text_view_3">Text view 3</string>
+    <string name="text_view_4">Text view 4</string>
+    <string name="text_view_5">Text view 5</string>
+    <string name="text_view_6">Text view 6</string>
+    <string name="w1500_dp">w1500 dp</string>
+    <string name="shield">Shield</string>
+    <string name="h1400_dp">h1400 dp</string>
+    <string name="w1400dp">w1400dp</string>
+    <string name="landscape">LandScape</string>
+    <string name="sw600dp">sw600dp</string>
+</resources>

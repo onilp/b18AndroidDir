@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        tools:context=".Register">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/PageHeaderStyle"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/registerUsernameEditText"
+            style="@style/AuthEditTextStyle"
+            android:layout_width="0dp"
+            android:layout_marginTop="30dp"
+            android:hint="@string/username"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/personIconImageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/registerPasswordEditText"
+            style="@style/AuthEditTextStyle"
+            android:layout_width="0dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/passwordIconImageView"
+            app:layout_constraintTop_toBottomOf="@+id/registerUsernameEditText" />
+
+        <EditText
+            android:id="@+id/registerEmailEditText"
+            style="@style/AuthEditTextStyle"
+            android:layout_width="0dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/emailIconImageView"
+            app:layout_constraintTop_toBottomOf="@+id/registerPasswordEditText" />
+
+        <RadioGroup
+            android:id="@+id/registerGenderRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerEmailEditText">
+
+            <RadioButton
+                android:id="@+id/registerMaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:checked="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/registerFemaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:padding="5dp"
+                android:text="@string/female" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/which_one_are_you"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerGenderRadioGroup" />
+
+        <CheckBox
+            android:id="@+id/registerStudentCheckBox"
+            style="@style/RegisterCheckBoxStyle"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/student"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <CheckBox
+            android:id="@+id/registerTeacherCheckBox"
+            style="@style/RegisterCheckBoxStyle"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/teacher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerStudentCheckBox" />
+
+        <Button
+            android:id="@+id/registerButton"
+            style="@style/AuthButtonStyle"
+            android:text="@string/register"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerTeacherCheckBox" />
+
+        <ImageView
+            android:id="@+id/emailIconImageView"
+            style="@style/AuthIconStyle"
+            android:src="@drawable/ic_email_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/registerEmailEditText"
+            app:layout_constraintEnd_toStartOf="@+id/registerEmailEditText"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/registerEmailEditText" />
+
+        <ImageView
+            android:id="@+id/personIconImageView"
+            style="@style/AuthIconStyle"
+            android:src="@drawable/ic_person_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/registerUsernameEditText"
+            app:layout_constraintEnd_toStartOf="@+id/registerUsernameEditText"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/registerUsernameEditText" />
+
+        <ImageView
+            android:id="@+id/passwordIconImageView"
+            style="@style/AuthIconStyle"
+            android:src="@drawable/ic_lock_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/registerPasswordEditText"
+            app:layout_constraintEnd_toStartOf="@+id/registerPasswordEditText"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/registerPasswordEditText" />
+
+        <TextView
+            android:id="@+id/redirectToLoginTextView"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="@string/have_account_login_here"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

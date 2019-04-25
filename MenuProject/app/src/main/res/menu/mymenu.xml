@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="My Activity" android:id="@+id/myActivity"/>
+    <item android:title="My Toast" android:id="@+id/myToast"/>
+    <item android:title="Person" android:id="@+id/person"
+        android:icon="@drawable/ic_person_black_24dp" app:showAsAction="always"/>
+    <item android:title="Media" android:id="@+id/media"
+        android:icon="@drawable/ic_perm_media_black_24dp" app:showAsAction="collapseActionView"/>
+    <item android:title="Remote" android:id="@+id/remote"
+        android:icon="@drawable/ic_settings_remote_black_24dp" app:showAsAction="collapseActionView"/>
+    <item android:title="Phone Bluetooth" android:id="@+id/phoneBluetooth"
+        android:icon="@drawable/ic_phone_bluetooth_speaker_black_24dp" app:showAsAction="collapseActionView"/>
+    <item android:title="PDF" android:id="@+id/pdf"
+        android:icon="@drawable/ic_picture_as_pdf_black_24dp" app:showAsAction="collapseActionView"/>
+    <item android:title="Power" android:id="@+id/power"
+        android:icon="@drawable/ic_power_black_24dp" app:showAsAction="collapseActionView"/>
+    <item android:title="Wifi" android:id="@+id/wifi"
+        android:icon="@drawable/ic_signal_wifi_4_bar_black_24dp" app:showAsAction="collapseActionView"/>
+</menu>

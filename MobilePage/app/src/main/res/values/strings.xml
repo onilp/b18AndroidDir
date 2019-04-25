@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MobilePage</string>
+    <string name="mobile">Mobile</string>
+    <string name="h700dp">h700dp</string>
+    <string name="sw600dp">sw600dp</string>
+    <string name="w1000dp">w1000dp</string>
+    <string name="w800dp">w800dp</string>
+    <string name="sw800dp">sw800dp</string>
+    <string name="sw500dp">sw500dp</string>
+    <string name="sw650dp">sw650dp</string>
+    <string name="sw240dp">sw240dp</string>
+    <string name="landscape">landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="w480dp">w480dp</string>
+    <string name="_1800dp">1800dp</string>
+    <string name="h800dp">h800dp</string>
+</resources>

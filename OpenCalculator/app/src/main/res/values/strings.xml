@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OpenCalculator</string>
+    <string name="click_this_to_open_calculator">Click this to open calculator.</string>
+</resources>

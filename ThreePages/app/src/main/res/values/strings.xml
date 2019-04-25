@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ThreePages</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="which_one_are_you">Which one are you?</string>
+    <string name="login">Login</string>
+    <string name="register_account_here">Register account here</string>
+    <string name="login_here">Login here</string>
+    <string name="have_account_login_here">Have account? Login here</string>
+    <string name="logout">Logout</string>
+</resources>

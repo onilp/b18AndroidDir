@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="healthy">Healthy</string>
+    <string name="page_header">Page Header</string>
+    <string name="gender">Gender</string>
+    <string name="should_get_page_header">Should get page header</string>
+    <string name="should_get_username">Should get username</string>
+    <string name="should_get_password">Should get password</string>
+    <string name="should_get_gender">Should get gender</string>
+    <string name="should_get_smart">Should get smart</string>
+    <string name="should_get_healthy">Should get healthy</string>
+    <string name="smart">smart</string>
+</resources>
