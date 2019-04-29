@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -70,7 +71,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView titleTextView, genreTextView, yearTextView;
-        DataCommunicationInterface dataCommunicationInterface;
+        ImageView imageView;
 
         public MyViewHolder(@NonNull final View itemView) {
             super(itemView);
@@ -78,6 +79,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             titleTextView = itemView.findViewById(R.id.title);
             genreTextView = itemView.findViewById(R.id.genre);
             yearTextView = itemView.findViewById(R.id.year);
+            imageView = itemView.findViewById(R.id.imageView);
 
             titleTextView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -85,7 +87,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                     String movieName = titleTextView.getText().toString();
                     String genre = genreTextView.getText().toString();
                     String year = yearTextView.getText().toString();
-
 
                     DisplayFragment displayFragment = new DisplayFragment();
                     Bundle bundle = new Bundle();
