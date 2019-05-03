@@ -1,6 +1,10 @@
 package com.example.uitest.main;
 
+import com.example.uitest.data.Task;
+import com.example.uitest.data.source.TaskDataSource;
+
 public class MainPresenter implements MainContract.Presenter {//1 --- //5
+
 
     MainContract.View view;//switch board //8
     public MainPresenter(MainActivity mainActivity) {//7
@@ -19,4 +23,5 @@ public class MainPresenter implements MainContract.Presenter {//1 --- //5
         //hey ms view show a toast
         view.showToast("presenter:  "+name);
     }
+
 }
