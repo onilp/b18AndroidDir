@@ -32,7 +32,7 @@ public class DbOperations {
         Cursor cursor = database.query("names", null, null, null, null, null, null);
         cursor.moveToLast();
 
-
+        return "names";
     }
 
     public void updateRow(){}

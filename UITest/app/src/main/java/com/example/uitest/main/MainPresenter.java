@@ -1,8 +1,5 @@
 package com.example.uitest.main;
 
-import com.example.uitest.data.Task;
-import com.example.uitest.data.source.TaskDataSource;
-
 public class MainPresenter implements MainContract.Presenter {//1 --- //5
 
 

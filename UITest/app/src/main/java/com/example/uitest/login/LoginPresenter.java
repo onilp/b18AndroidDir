@@ -1,6 +1,6 @@
 package com.example.uitest.login;
 
-import com.example.uitest.data.Task;
+import com.example.uitest.data.source.Task;
 import com.example.uitest.data.source.TaskDataSource;
 import com.example.uitest.data.source.local.TaskLocalDataSource;
 

@@ -10,15 +10,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.util.Objects;
+
 public class FragmentOne extends Fragment {
-    Button submitButton;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_one, container, false);
 
-        submitButton = view.findViewById(R.id.submitButton);
+        Button submitButton = view.findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,7 +28,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle = new Bundle();
                 bundle.putString("username", "Calvert");
                 fragmentTwo.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.myLayout, fragmentTwo).addToBackStack(null).commit();
+                Objects.requireNonNull(getFragmentManager()).beginTransaction().replace(R.id.myLayout, fragmentTwo).addToBackStack(null).commit();
             }
         });
         return view;

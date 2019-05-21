@@ -9,17 +9,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 public class FragmentTwo extends Fragment {
-    TextView usernameTextView;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_two, container, false);
 
-        usernameTextView = view.findViewById(R.id.usernameTextView);
+        TextView usernameTextView = view.findViewById(R.id.usernameTextView);
 
         Bundle bundle = getArguments();
-        String username = bundle.getString("username");
+        String username = Objects.requireNonNull(bundle).getString("username");
 
         usernameTextView.setText(username);
         return view;

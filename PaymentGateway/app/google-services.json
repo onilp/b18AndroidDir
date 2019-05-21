@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902277333623",
+    "firebase_url": "https://paymentgateway-2dc73.firebaseio.com",
+    "project_id": "paymentgateway-2dc73",
+    "storage_bucket": "paymentgateway-2dc73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902277333623:android:a0642f45431f340d",
+        "android_client_info": {
+          "package_name": "com.calvert.paymentgateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902277333623-rhre1c6p1h8196ln16a84u5lq7ivdsg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.calvert.paymentgateway",
+            "certificate_hash": "2df34fb442b2ac507e97d05ed7cc64e060370f22"
+          }
+        },
+        {
+          "client_id": "902277333623-dvbh4lisbn9i054i24a7ctrke98cnrpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI7lK4hcbzrjRn-ZQw_p9aQxktkUaUths"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902277333623-dvbh4lisbn9i054i24a7ctrke98cnrpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

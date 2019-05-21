@@ -6,7 +6,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.uitest.data.Task;
+import com.example.uitest.data.source.Task;
 
 /**
  * this class is responsible for create, read, update and delete

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.example.uitest.R;
-import com.example.uitest.data.Task;
+import com.example.uitest.data.source.Task;
 import com.example.uitest.data.source.local.DatabaseOperations;
 
 public class AddEditTaskActivity extends AppCompatActivity {

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PaymentGateway</string>
+    <string name="simplify_public_key">sbpb_YTk1MjIzNDYtZTM4OS00YzA5LTg4MWEtODNlZWY1YTcxNjdj</string>
+    <string name="expiry_month">Expiry Month</string>
+    <string name="expiry_day">Expiry Day</string>
+    <string name="expiry_year">Expiry Year</string>
+    <string name="pay">Pay</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="YOUR_ADMOB_APP_ID">ca-app-pub-9626350310935922~4990328103</string>
+</resources>
