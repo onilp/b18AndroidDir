@@ -6,7 +6,7 @@ import android.util.Log;
 
 import com.calvert.retrofithomework.model.Photo;
 import com.calvert.retrofithomework.network.ApiInterface;
-import com.calvert.retrofithomework.network.RetrofitInstance;
+import com.calvert.retrofitlibrary.RetrofitInstance;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class PhotoRetrofit extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photo_retrofit);
 
-        ApiInterface apiInterface = RetrofitInstance.getRetrofitInstance().create(ApiInterface.class);
+        ApiInterface apiInterface = RetrofitInstance.getInstance("https://jsonplaceholder.typicode.com/").create(ApiInterface.class);
         Call<List<Photo>> call = apiInterface.getPhoto();
 
         call.enqueue(new Callback<List<Photo>>() {
@@ -42,7 +42,7 @@ public class PhotoRetrofit extends AppCompatActivity {
         call2.enqueue(new Callback<List<Photo>>() {
             @Override
             public void onResponse(Call<List<Photo>> call, Response<List<Photo>> response) {
-                Log.d(TAG, "Single photo: " + response.body().get(0).getThumbnailUrl());
+                Log.d(TAG, "Single photo: " + response.body());
             }
 
             @Override
